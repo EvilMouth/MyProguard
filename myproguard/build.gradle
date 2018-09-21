@@ -1,0 +1,19 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 28
+
+    defaultConfig {
+        minSdkVersion 15
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            consumerProguardFile 'proguard-rules.pro'
+        }
+    }
+}
+
+apply from: 'https://raw.githubusercontent.com/izyhang/novoda-push/master/gradle/push.gradle'
