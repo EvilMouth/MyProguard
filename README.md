@@ -1,5 +1,5 @@
 # MyProguard
 
 ```groovy
-api project(':myproguard')
+api 'com.zyhang:myproguard:1.0.0'
 ```
