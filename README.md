@@ -1,6 +1,7 @@
 # MyProguard
 
-自动配置混淆
+利用`consumerProguardFile`自动配置混淆
+
 ```
 -keep class com.zyhang.** { *; }
 ```
